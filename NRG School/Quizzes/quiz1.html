@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Introduction to html</title>
+		<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../bootstrap/bootstrap-4.0.0-beta.2-dist/css/bootstrap.min.css">
+	  	<link rel="stylesheet" type="text/css" href="../styles.css">
+	</head>
+	<body>
+		<header>
+		    <br/>
+		    <br/>
+		    <h1 align="center">NRG School</h1>
+		    <h4 STYLE="position:absolute; TOP:110px; RIGHT:12%">A project by</h4>
+			<a href="../index.html"><IMG STYLE="position:absolute; TOP:35px; LEFT:5%" SRC="../Images/logo2.png"></a>
+		    <IMG STYLE="position:absolute; TOP:100px; RIGHT:3%; WIDTH:80px; HEIGHT:50px" SRC="../Images/nrg.png">
+		    <br/>
+		    <br>
+		    <hr>
+	    </header>
+		<div class="row">
+			<div class="col-md-2 col-lg-2 col-sm-2">
+				<div class= "position-absolute">
+			      <ul class="nav flex-column">
+			        <li class="nav-item">
+						<a class="nav-link  text-white" href="../Lessons/lesson.html">Lessons</a>
+			        </li>
+			        <li class="nav-item">
+						<a class="nav-link  text-white" href="../Examples/example.html">Examples</a>
+			        </li>
+			        <li class="nav-item">
+						<a class="nav-link text-white" href="../Exercises/exercise.html">Exercises</a>
+			        </li>
+			        <li class="nav-item">
+						<a class="nav-link  text-white" href="../Quizzes/quiz.html">Quizzes</a>
+			        </li>
+			        <li class="nav-item">
+						<a class="nav-link  text-white" href="../feedback.html">Feedback</a>
+			        </li>
+			      </ul>
+			    </div>
+			</div>    
+			<div class="col-lg-10 col-md-10 col-sm-12 scrollable">
+				<div class='main_quiz'>
+					<h2>Practice part: Quiz</h2>
+					<br><br>
+					
+					<p>1. Is HTML case sensitive? </p>
+					<input type ="button" class="btn btn-outline-info" type="button" value="No" onclick="document.getElementById('thebox').value='Correct!';"/>
+					<input type ="button" class="btn btn-outline-info" type="button" value="Yes" onclick="document.getElementById('thebox').value='Incorrect!';"/>
+					<input type="text" id="thebox" value="" size=8>
+					<br><br>
+					
+					<p>2. A tag is enclosed with... </p>
+					<input type ="button" class="btn btn-outline-info" type="button" value="<>" onclick="document.getElementById('thebox2').value='Correct!';"/>
+					<input type ="button" class="btn btn-outline-info" type="button" value="()" onclick="document.getElementById('thebox2').value='Incorrect!';"/>
+					<input type ="button" class="btn btn-outline-info" type="button" value="{}" onclick="document.getElementById('thebox2').value='Incorrect!';"/>
+					<input type="text" id="thebox2" value="" size=8>
+					<br><br>
+					
+					<p>3. What tag shows a caption in the title bar of the page? </p>
+					<input type ="button" class="btn btn-outline-info" type="button" value="<html>" onclick="document.getElementById('thebox3').value='Incorrect!';"/>
+					<input type ="button" class="btn btn-outline-info" type="button" value="<head>" onclick="document.getElementById('thebox3').value='Incorrect!';"/>
+					<input type ="button" class="btn btn-outline-info" type="button" value="<title>" onclick="document.getElementById('thebox3').value='Correct!';"/>
+					<input type="text" id="thebox3" value="" size=8>
+					<br><br>
+					
+					<p>4. Which of the following headers would be the largest? </p>
+					<input type ="button" class="btn btn-outline-info" type="button" value="H2" onclick="document.getElementById('thebox4').value='Incorrect!';"/>
+					<input type ="button" class="btn btn-outline-info" type="button" value="H1" onclick="document.getElementById('thebox4').value='Correct!';"/>
+					<input type ="button" class="btn btn-outline-info" type="button" value="H3" onclick="document.getElementById('thebox4').value='Incorrect!';"/>
+					<input type="text" id="thebox4" value="" size=8>
+					<br><br>
+					
+					<p>5. How would you define a line break? </p>
+					<input type ="button" class="btn btn-outline-info" type="button" value="hr" onclick="document.getElementById('thebox5').value='Incorrect!';"/>
+					<input type ="button" class="btn btn-outline-info" type="button" value="img" onclick="document.getElementById('thebox5').value='Incorrect!';"/>
+					<input type ="button" class="btn btn-outline-info" type="button" value="br" onclick="document.getElementById('thebox5').value='Correct!';"/>
+			   		<input type="text" id="thebox5" value="" size=8>
+			   		<br><br> 
+			   </div>
+	    	</div>
+		</div>
+	   
+	   <!-- Scripts -->
+	   <script src="bootstrap/bootstrap-4.0.0-beta.2-dist/js/jquery-3.2.1.js"></script>
+	   <script src="bootstrap/bootstrap-4.0.0-beta.2-dist/js/bootstrap.bundle.js"></script>
+	</body>
+</html>

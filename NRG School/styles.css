@@ -1,0 +1,94 @@
+.button-main{
+    background-color: indianred;
+    color:white;
+}
+
+.button-main:hover{
+    background-color: #a84b4b;
+    color:white;
+}
+.code-snippet{
+    padding-left:40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightblue;
+    color:gray();
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: Consolas, "Lucida Console", sans-serif;
+}
+
+#umail{
+    margin-left: 20px;
+}
+
+#uname{
+    margin-left: 10px;
+}
+
+.background-gray{
+    background-color: lightgray;
+}
+
+.logo-image{
+    background-image: url("Images/logo.png");
+}
+ul.a
+{
+    list-style-type: none;
+    text-align: center;
+    color: white;
+    margin: 5%;
+    padding: 0px;
+    width: 90%;
+    background-color: Indianred;
+}
+ul {
+  list-style-type: none;
+  margin: 22px;
+  padding: 0px;
+  width: 200px;
+  background-color: Indianred;
+}  
+        
+li a:hover {
+  background-color: #a84b4b ;
+  color: white;
+}   
+      
+*{
+ padding-left: 5px;
+}
+
+.contenido{
+    position: relative;
+    left: 250px;
+    top: -200px;
+}
+
+.tittle{
+    background-color: Indianred;
+    color: white;
+}
+
+body{
+    background-color: #F2F2F2;
+}    
+
+.scrollable{
+    height: 500px;
+    overflow-y: scroll;
+}
+
+/* CSS DEL HTML:INDEX */
+.welcomeInformation{
+    background-color: red;
+    text-align:justify;
+}
+
+
+/* CSS DEL HTML:QUIZ */
+.main_quiz{
+    margin:2% 0 0 0;
+    padding: 0;
+}

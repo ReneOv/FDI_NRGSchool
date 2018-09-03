@@ -1,0 +1,96 @@
+html{
+    min-height:100%;/* make sure it is at least as tall as the viewport */
+    position:relative;
+}
+body{
+    height:100%; /* force the BODY element to match the height of the HTML element */
+    background-color: #F2F2F2;
+}
+
+h1 {
+	font-family: "Lucida Grande";
+	font-size: 70px;
+	color: #4A4F70;
+}
+
+h4{
+	font-family: "Lucida Grande";
+	color: #0468BF;
+  text-align: left;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 5em;
+  float: left;
+}
+
+.section {
+  position: absolute;
+  width: 23%;
+  height: 100%;
+  background-color: #F19CA2;
+  display: flex;
+  align-items: top;
+  font-family: lucida grande;
+}
+
+.content {
+  font-size: 25px;
+  color: white;
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: Lucida Grande;
+  line-height: 3em;
+}
+
+table {
+margin-left:auto;
+margin-right:auto;
+border: 3px solid #485058;
+border-collapse: collapse;
+text-align:center;
+background: #B0DFE4;
+/*background-image: url("images/bg.jpg");*/
+}
+
+td, th {
+border: 2px solid #485058;
+font-family:Lucida Grande;
+color: #485058;
+font-size: 16px;
+}
+
+th {
+font-size:larger;
+color: #485058;
+}
+
+body {
+  color: black;
+  font-size: larger;
+  font-family: Lucida Grande;
+  text-align: center;
+}
+p {
+  text-align: justify;
+}
+ul {
+  text-align: justify;
+}
+
+.theory {
+  padding-left: 27%;
+  padding-right: 3em;
+}
+.code {
+  text-align: left;
+  color: #4A4F70;
+}
